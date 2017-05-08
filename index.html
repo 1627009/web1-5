@@ -41,7 +41,15 @@
   
   <h1>アンケート</h1>
   <form>
-    <p><input type="text"></p>
+    <p>お名前<input type="text" name="input1"></p>
+    <p>この記事は役に立った
+      <input type="radio" name="input2" value="Yes" checked>はい
+      <input type="radio" name="input3" value="No">いいえ
+    </p>
+    <p>どこでこの記事を知ったのか（複数選択可）
+      <input type="checkbox" name="input4" value="frend" chacked>友人
+      <input type="checkbox" name="input6" value="family" checked>家族
+      <input type="checkbox" name="input5" value="chance">たまたま流れ着いた
     <p><input type="submit" value="送信">
        <input type="reset" value="取り消し"></p>
   </form>
